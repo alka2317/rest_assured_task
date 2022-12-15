@@ -10,7 +10,7 @@ name: trigger action on cron schedule
 
 on:
   schedule:
-  - cron: '28 21 * * 1-5'
+  - cron: '33 21 * * 1-5'
 
 jobs:
   build:
