@@ -9,9 +9,8 @@
 name: Java CI with Maven
 
 on:
-cron:
 schedule:
--cron:'19 21 * * 1-5'
+-cron:'25 21 * * 1-5'
 
 jobs:
   build:
