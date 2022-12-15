@@ -11,9 +11,7 @@ name: Java CI with Maven
 on:
 cron:
 schedule:
--cron:'16 21 * * 1-5'
- 
-
+-cron:'19 21 * * 1-5'
 
 jobs:
   build:
