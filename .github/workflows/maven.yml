@@ -6,11 +6,11 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: trigger action on cron schedule
 
 on:
-schedule:
--cron:'25 21 * * 1-5'
+  schedule:
+  - cron: '28 21 * * 1-5'
 
 jobs:
   build:
